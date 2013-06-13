@@ -1,0 +1,634 @@
+/*FONT: Aaargh, CaviarDreams, GoodDog, DODGE, CartoGothicStd-Book*/
+
+@font-face
+{
+	font-family:CaviarDreams;
+	src: url('/font/CaviarDreams.ttf');
+	src: local('CaviarDreams'), local('CaviarDreams'), url('/font/CaviarDreams.ttf') format('truetype');
+}
+@font-face2
+{
+	font-family:DODGE;
+	src: url('/font/DODGE.ttf');
+	src: local('DODGE'), local('DODGE'), url('/font/DODGE.ttf') format('truetype');
+}
+@font-face3
+{
+	font-family:GoodDog;
+	src: url('/font/GoodDog.otf');
+	src: url('/font/GoodDog.otf');
+	src: local('GoodDog'), local('GoodDog'), url('/font/GoodDog.otf') format('truetype');
+}
+@font-face4
+{
+	font-family:Aaargh;
+	src: url('/font/Aaargh.ttf');
+	src: local('Aaargh'), local('Aaargh'), url('/font/Aaargh.ttf') format('truetype');
+}
+@font-face5
+{
+	font-family:CartoGothicStd-Book;
+	src: url('/font/CartoGothicStd-Book.otf');
+	src: local('CartoGothicStd-Book'), local('CartoGothicStd-Book'), url('/font/CartoGothicStd-Book.otf') format('truetype');
+}
+
+@font-face6
+{
+	font-family:UglyQua;
+	src: url('/font/UglyQua.ttf');
+	src: local('UglyQua'), local('UglyQua'), url('/font/UglyQua.ttf') format('truetype');
+}
+
+body{background-color: #BDEDF4; /* Change this to change both stribe colors */
+	
+	background-image: -webkit-gradient(linear, 0 100%, 100% 0,
+							color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent),
+							color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)),
+							color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent),
+							to(transparent)); /* Old webkit syntax */
+	background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+							transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+							transparent 75%, transparent); /* New webkit syntax */					
+	background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+							transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+							transparent 75%, transparent); /* Firefox */
+	background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+							transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+							transparent 75%, transparent); /* Opera */
+	background-image: linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%,
+							transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%,
+							transparent 75%, transparent); /* WC3 */
+	background-size: 16px 16px; font-family:Aaargh;
+	src: url('font/Aaargh.ttf');
+	src: local('Aaargh'), local('Aaargh'), url('font/Aaargh.ttf') format('truetype');text-decoration:none}
+	
+ 
+	
+#kepala{width:100%}
+#badanlogin{width:100%;background:#ccc}
+#login{margin:100px auto 0 auto;width:300px; height:500px;background:#f2f2f2;border-radius:10px;}
+#salam{padding:20px 0px 20px 0px; width:900px; font-size:25px; margin:0 auto; margin-top:50px;text-align:center; border-bottom: solid #A0BABD 2px;border-top: solid #A0BABD 2px}
+#basabasi{width:100%}
+.basa-basi{width:700px; margin:10px auto;text-align:center;font-size:12px;}
+<!--Akhir dari Bagian header-->
+
+#badan{width:100%;margin-top:30px;}
+#badan img{width:200px}
+#wrapper
+{
+	width:950px;height:200px;margin:0 auto; border:solid #BBD6DA 10px; border-radius:11px;
+}
+#mainbar{float:left; width:950px;background:#DBEFEE;height:200px;}
+#mainbar p{font-family:CaviarDreams, tahoma; font-size:14px; text-align:center}
+
+#dua{float:left;width:460px}
+.kanan{float:right;}
+#dua img{padding-left:10px;}
+.kiri{float:left;}
+#satu{float:right;width:460px;}
+#satu img{padding-left:20px}
+#satu .tulisan{padding-left:10px}
+.tulisan{background:#99CCD2;padding:7px;width:120px;border:solid #C1D9DC 4px; border-radius:6px; text-align:center;color:#436B70}
+ 
+#fotologin{float:left;width:230px;}
+#tempatlogin{float:right;padding-top:40px;width:450px}
+
+
+#kaki{width:100%;margin-top:50px}
+.kauskaki{font-size:11px;background:#D0EDF0;border:solid #C5E0E4 10px; border-radius:10px;width:700px;margin:0 auto;}
+.kauskaki p{text-align:center}
+
+/*----------------HALAMAN SI DOKTER------------------*/
+#laman
+{
+	margin-top:10px; 
+	padding:20px;
+	width:800px;  
+	margin:0 auto; 
+	background:rgb(247, 247, 247);
+	border: 1px solid rgba(147, 184, 189,0.8);
+	border-radius:10px;
+	moz-border-radius:10px;
+	moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	box-shadow: 0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	-webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109, 0.7), 0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+
+}
+.laman-kiri{float:left;width:250px;height:300px;}
+.laman-kanan{float:right;width:550px;height:300px;}
+
+#dalam-halaman
+{
+		position:relative; padding-bottom:30px
+}
+ 
+/*----------------HALAMAN SI DOKTER------------------*/
+
+/*-----------------MENU --------------------*/
+#bentengmenu{width:100%}
+.bungkusmenu{margin:0 auto;width:800px}
+.menu
+{
+	float:left; width:400px; background:#000; height: 50px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border: solid #f32 1px;
+}
+
+/*-----------------MENU --------------------*/
+ 
+
+/*CSS NAVIGATION MENU*/
+nav{width:100%}
+#navigasi{margin:0 auto}
+.fancyNav{
+	/* Affects the UL element */
+	overflow: hidden;
+	display: inline-block;
+	width:740px;
+}
+
+.fancyNav li{
+	/* Specifying a fallback color and we define CSS3 gradients for the major browsers: */
+	
+	background-color: #A4D6DD;
+	background-image: -webkit-gradient(linear,left top, left bottom,from(#AEE6EE), color-stop(0.5,#A4D6DD), color-stop(0.51, #99CFD7));
+	background-image: -moz-linear-gradient(#AEE6EE 0%, #A4D6DD 50%, #99CFD7 51%);
+	background-image: -o-linear-gradient(#AEE6EE 0%, #A4D6DD 50%, #99CFD7 51%);
+	background-image: -ms-linear-gradient(#AEE6EE 0%, #A4D6DD 50%, #99CFD7 51%);
+	background-image: linear-gradient(#AEE6EE 0%, #A4D6DD 50%, #99CFD7 51%);
+	
+	border-right: 1px solid rgba(9, 9, 9, 0.125);
+	
+	/* Adding a 1px inset highlight for a more polished efect: */
+	
+	box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
+	-moz-box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
+	-webkit-box-shadow: 1px -1px 0 rgba(255, 255, 255, 0.6) inset;
+	
+	position:relative;
+	
+	float: left;
+	list-style: none;
+}
+
+.fancyNav li:after{
+
+	/* This creates a pseudo element inslide each LI */	
+	
+	content:'.';
+	text-indent:-9999px;
+	overflow:hidden;
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	z-index:1;
+	opacity:0;
+	
+	/* Gradients! */
+ 
+	background-image:-webkit-gradient(linear, left top, right top, from(rgba(122, 189, 233,0.5)),color-stop(0.5,rgba(160, 186, 202,0)), to(rgba(122, 189, 233,0.5)));
+	background-image:-moz-linear-gradient(left, rgba(122, 189, 233,0.5), rgba(160, 186, 202,0) 50%, rgba(122, 189, 233,0.5));
+	background-image:-o-linear-gradient(left, rgba(122, 189, 233,0.5), rgba(160, 186, 202,0) 50%, rgba(122, 189, 233,0.5));
+	background-image:-ms-linear-gradient(left, rgba(122, 189, 233,0.5), rgba(160, 186, 202,0) 50%, rgba(122, 189, 233,0.5));
+	background-image:linear-gradient(left, rgba(122, 189, 233,0.5), rgba(160, 186, 202,0) 50%, rgba(122, 189, 233,0.5));
+	
+	/* Creating borders with box-shadow. Useful, as they don't affect the size of the element. */
+	
+	box-shadow:-1px 0 0 #B8DAFA,-2px 0 0 #fff,1px 0 0 #B8DAFA,2px 0 0 #fff;
+	-moz-box-shadow:-1px 0 0 #B8DAFA,-2px 0 0 #fff,1px 0 0 #B8DAFA,2px 0 0 #fff;
+	-webkit-box-shadow:-1px 0 0 #B8DAFA,-2px 0 0 #fff,1px 0 0 #B8DAFA,2px 0 0 #fff;
+	
+	/* This will create a smooth transition for the opacity property */
+	
+	-moz-transition:0.25s all;
+	-webkit-transition:0.25s all;
+	-o-transition:0.25s all;
+	transition:0.25s all;
+}
+
+/* Treating the first LI and li:after elements separately */
+
+.fancyNav li:first-child{
+	border-radius: 4px 0 0 4px;
+}
+
+.fancyNav li:first-child:after,
+.fancyNav li.selected:first-child:after{
+	box-shadow:1px 0 0 #B8DAFA,2px 0 0 #fff;
+	-moz-box-shadow:1px 0 0 #B8DAFA,2px 0 0 #fff;
+	-webkit-box-shadow:1px 0 0 #B8DAFA,2px 0 0 #fff;
+	
+	border-radius:4px 0 0 4px;
+}
+
+.fancyNav li:last-child{
+	border-radius: 0 4px 4px 0;
+}
+
+/* Treating the last LI and li:after elements separately */
+
+.fancyNav li:last-child:after,
+.fancyNav li.selected:last-child:after{
+	box-shadow:-1px 0 0 #B8DAFA,-2px 0 0 #fff;
+	-moz-box-shadow:-1px 0 0 #B8DAFA,-2px 0 0 #fff;
+	-webkit-box-shadow:-1px 0 0 #B8DAFA,-2px 0 0 #fff;
+	
+	border-radius:0 4px 4px 0;
+}
+
+.fancyNav li:hover:after,
+.fancyNav li.selected:after,
+.fancyNav li:target:after{
+	/* This property triggers the CSS3 transition */
+	opacity:1;
+}
+
+.fancyNav:hover li.selected:after,
+.fancyNav:hover li:target:after{
+	/* Hides the targeted li when we are hovering on the UL */
+	opacity:0;
+}
+
+.fancyNav li.selected:hover:after,
+.fancyNav li:target:hover:after{
+	opacity:1 !important;
+}
+
+/* Styling the anchor elements */
+
+.fancyNav li a{
+	color: #426F9A;
+	display: inline-block;
+	font: 20px/1 Lobster,Arial,sans-serif;
+	padding: 12px 35px 14px;
+	position: relative;
+	text-shadow: 1px 1px -0 rgba(255, 255, 255, 0.6);
+	z-index:2;
+	text-decoration:none !important;
+	white-space:nowrap;
+}
+
+.fancyNav a.homeIcon{
+	background:url('/rekammedik/gambar/home.png') no-repeat center center;
+	display: block;
+	overflow: hidden;
+	padding-left: 12px;
+	padding-right: 12px;
+	text-indent: -9999px;
+	width: 16px;
+}
+
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+DEMO 2 TOMBOL CSS MANTAP
+*/
+
+.tombol{
+	background-color:#3bb3e0;
+	padding:10px;
+	position:relative;
+	font-family: 'Open Sans', sans-serif;
+	font-size:12px;
+	text-decoration:none;
+	color:#fff;
+	background-image: linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%);
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, rgb(44,160,202)),
+	color-stop(1, rgb(62,184,229))
+	);
+	-webkit-box-shadow: inset 0px 1px 0px #7fd2f1, 0px 6px 0px #156785;
+	-moz-box-shadow: inset 0px 1px 0px #7fd2f1, 0px 6px 0px #156785;
+	-o-box-shadow: inset 0px 1px 0px #7fd2f1, 0px 6px 0px #156785;
+	box-shadow: inset 0px 1px 0px #7fd2f1, 0px 6px 0px #156785;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.tombol::before {
+	background-color:#072239;
+	content:"";
+	display:block;
+	position:absolute;
+	width:100%;
+	height:100%;
+	padding-left:2px;
+	padding-right:2px;
+	padding-bottom:4px;
+	left:-2px;
+	top:5px;
+	z-index:-1;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0px 1px 0px #fff;
+	-moz-box-shadow: 0px 1px 0px #fff;
+	-o-box-shadow: 0px 1px 0px #fff;
+	box-shadow: 0px 1px 0px #fff;
+}
+
+.tombol:active {
+	color:#156785;
+	text-shadow: 0px 1px 1px rgba(255,255,255,0.3);
+	background:rgb(44,160,202);
+	-webkit-box-shadow: inset 0px 1px 0px #7fd2f1, inset 0px -1px 0px #156785;
+	-moz-box-shadow: inset 0px 1px 0px #7fd2f1, inset 0px -1px 0px #156785;
+	-o-box-shadow: inset 0px 1px 0px #7fd2f1, inset 0px -1px 0px #156785;
+	box-shadow: inset 0px 1px 0px #7fd2f1, inset 0px -1px 0px #156785;
+	top:7px;
+}
+
+.tombol:active::before {
+	top:-2px;
+}
+
+
+/*--------------CSS TOMBOL PENCARIAN---------------*/
+#searchbox
+{
+	background: #eaf8fc;
+	background-image: -moz-linear-gradient(#fff, #d4e8ec);
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #d4e8ec),color-stop(1, #fff));
+	
+	-moz-border-radius: 35px;
+	border-radius: 35px;
+	
+	border-width: 1px;
+	border-style: solid;
+	border-color: #c4d9df #a4c3ca #83afb7;            
+	width: 300px;
+	padding: 10px;
+	margin: 100px auto 50px;
+	overflow: hidden; /* Clear floats */
+}
+
+#search, #submit
+{
+	float: left;
+}
+
+#search
+{
+	padding: 5px 9px; 
+	width: 380px;
+	border: 1px solid #a4c3ca;
+	font: normal 13px 'trebuchet MS', arial, helvetica;
+	background: #E6F7F7;
+	
+	-moz-border-radius: 50px 3px 3px 50px;
+	 border-radius: 50px 3px 3px 50px;
+	 -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);
+	 -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);
+	 box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);            
+}
+#search:fokus
+{
+	padding: 5px 9px; 
+	width: 380px;
+	border: 1px solid #a4c3ca;
+	font: normal 13px 'trebuchet MS', arial, helvetica;
+	background: #E6F7F7;
+	
+	-moz-border-radius: 50px 3px 3px 50px;
+	 border-radius: 50px 3px 3px 50px;
+	 -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);
+	 -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);
+	 box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);            
+}
+/* ----------------------- */
+
+#submit
+{		
+	background: #6cbb6b;
+	background-image: -moz-linear-gradient(#95d788, #6cbb6b);
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #6cbb6b),color-stop(1, #95d788));
+	
+	-moz-border-radius: 3px 50px 50px 3px;
+	border-radius: 3px 50px 50px 3px;
+	
+	border-width: 1px;
+	border-style: solid;
+	border-color: #7eba7c #578e57 #447d43;
+	
+	 -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+	 -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;
+	 box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.3) inset;   		
+
+	height: 35px;
+	margin: 0 0 0 10px;
+        padding: 0;
+	width: 90px;
+	cursor: pointer;
+	font: bold 14px Arial, Helvetica;
+	color: #23441e;
+	
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+}
+
+#submit:hover
+{		
+	background: #95d788;
+	background-image: -moz-linear-gradient(#6cbb6b, #95d788);
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #95d788),color-stop(1, #6cbb6b));
+}	
+
+#submit:active
+{		
+	background: #95d788;
+	outline: none;
+   
+	 -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+	 -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;
+	 box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;		
+}
+
+#submit::-moz-focus-inner
+{
+       border: 0;  /* Small centering fix for Firefox */
+}		
+
+#search.placeholder {
+   color: #9c9c9c !important;
+   font-style: italic;
+} 
+
+textarea#area{
+color:#666;
+font-size:16px;
+-moz-border-radius: 8px; -webkit-border-radius: 8px;
+margin:5px 0px 10px 0px;
+padding:10px;
+height:150px;
+width:450px;
+border:#999 1px solid;
+font-family:CartoGothicStd-Book, arial, sans-serif;
+}
+textarea#area:focus{
+color:#000;
+outline:none;
+border:#35a5e5 2px solid;
+}
+
+input{
+color:#666;
+font-size:14px;
+-moz-border-radius: 8px; -webkit-border-radius: 8px;
+margin:2px 0px 5px 0px;
+padding:5px;
+border:#999 1px solid;
+font-family:CartoGothicStd-Book, arial, sans-serif; 
+}
+input:focus{
+color:#000;
+outline:none;
+border:#35a5e5 1px solid;
+}
+
+date,time#area{
+color:#666;
+font-size:16px;
+-moz-border-radius: 8px; -webkit-border-radius: 8px;
+margin:5px 0px 10px 0px;
+padding:10px; 
+width:100px;
+border:#999 1px solid;
+font-family:CartoGothicStd-Book, arial, sans-serif;
+}
+date,time#area:focus{
+color:#000;
+outline:none;
+border:#35a5e5 2px solid;
+}
+
+input#area{
+color:#666;
+font-size:16px;
+-moz-border-radius: 8px; -webkit-border-radius: 8px;
+margin:5px 0px 10px 0px;
+padding:10px; 
+width:450px;
+border:#999 1px solid;
+font-family:CartoGothicStd-Book, arial, sans-serif;
+}
+
+input#area:focus{
+color:#000;
+outline:none;
+border:#35a5e5 1px solid;
+}
+
+select#area{ color:#666; font-size:16px;-moz-border-radius: 8px; -webkit-border-radius: 8px;margin:5px 0px 10px 0px;padding:10px; width:450px;border:#999 1px solid;font-family:CartoGothicStd-Book, arial, sans-serif;}
+select#area:focus{color:#000;outline:none;border:#35a5e5 2px solid;}
+
+option#area{ color:#666; font-size:16px;-moz-border-radius: 8px; -webkit-border-radius: 8px;margin:5px 0px 10px 0px;padding:10px; width:450px;border:#999 1px solid;font-family:CartoGothicStd-Book, arial, sans-serif;}
+option#area:focus{color:#000;outline:none;border:#35a5e5 2px solid;}
+
+/*TABEL*/ 
+table#table1{
+    font-family:CartoGothicStd-Book, arial;
+    font-size: 14px; 
+    line-height: 1.4em;
+    font-style: normal;
+    border-collapse:separate;
+}
+/*THEAD --> bagian atas tabel, ada nomor, kegiatan dll*/
+#table1 thead th{
+    padding:15px;
+    color:#02406F;
+	font-weight:700;
+	text-align:center; 
+    border:1px solid #79BAEC;
+    border-bottom:3px solid #57A5DD;
+    background-color:#49A0ED;
+    background:-webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.02, rgb(126, 174, 247)),
+        color-stop(0.51, rgb(151, 194, 248)),
+        color-stop(0.87, rgb(159, 200, 253))
+        );
+    background: -moz-linear-gradient(
+        center bottom,
+        rgb(83, 119, 196) 2%,
+        rgb(66, 150, 198) 51%,
+        rgb(41, 154, 217) 87%
+        );
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-top-right-radius:5px;
+    -moz-border-radius:5px 5px 0px 0px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+#table1 thead th:empty{
+    background:transparent;
+    border:none;
+}
+/*TBODY TH --> bagian SAMPING UNTUK NOMOR*/
+#table1 tbody th{
+	text-align:center;
+    color:#02406F;
+	font-weight:700;
+    background-color:#A3DEFF;
+    border:1px solid #AACADF;
+    border-right:3px solid #88A0CE;
+    padding:0px 10px;
+    background:-webkit-gradient(
+        linear,
+        left bottom,
+        right top,
+        color-stop(0.02, rgb(126, 174, 247)),
+        color-stop(0.51, rgb(151, 194, 248)),
+        color-stop(0.87, rgb(159, 200, 253))
+        );
+    background: -moz-linear-gradient(
+        left bottom,
+        rgb(158,217,41) 2%,
+        rgb(139,198,66) 51%,
+        rgb(123,192,67) 87%
+        );
+    -moz-border-radius:5px 0px 0px 5px;
+    -webkit-border-top-left-radius:5px;
+    -webkit-border-bottom-left-radius:5px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+#table1 tfoot td{
+    color: #088BD2;
+    font-size:32px;
+    text-align:center;
+    padding:10px 0px;
+    text-shadow:1px 1px 1px #444;
+}
+#table1 tfoot th{
+    color:#666;
+}
+#table1 tbody td{
+    padding:10px;
+    text-align:center;
+    background-color:rgb(175, 216, 226);
+    border: 2px solid rgba(124, 172, 187, 0.74);
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    color:#063457;
+    text-shadow:1px 1px 1px #fff;
+}
+#table1 tbody span.check::before{
+    content : url(../images/check0.png)
+}
+
